@@ -1,0 +1,51 @@
+
+.box{
+	margin: 20px;
+	padding: 20px;
+	background-color: #eee;
+	border: solid 1px;
+	border-color: #999;
+	float: left;
+	overflow: auto;
+}
+#logo{
+	float: left;
+	position: relative;
+	width: 200px;
+	background-color: white;
+	border: solid 1px;
+	border-color: #999;
+	padding: 20px;
+}
+#logo img{
+	
+}
+#logo span{
+	float: right;
+	position: relative;
+	right:20px; 
+	font-size: 15px;
+}
+#intro{
+	margin-left: 260px;
+	margin-right: 160px;
+	width: auto;
+	background-color: white;
+	border: solid 1px;
+	border-color: #999;
+	padding: 20px;
+}
+#self{
+	float: right;
+	position: relative;
+	width: 100px;
+	background-color: white;
+	border: solid 1px;
+	border-color: #999;
+	padding: 20px;
+}
+#self img{
+	padding: 10px;
+	width: 80;
+	height: 80;
+}
