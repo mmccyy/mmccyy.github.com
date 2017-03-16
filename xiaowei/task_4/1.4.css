@@ -1,0 +1,29 @@
+.box{
+	width: 400px;
+	height: 200px;
+	background-color: #ccc;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-top: -100px;
+	margin-left: -200px;
+}
+#r1{
+	width: 50px;
+	height: 50px;
+	border-radius: 0 0 50px 0;
+	background-color: #fc0;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+}
+#r2{
+	width: 50px;
+	height: 50px;
+	border-radius: 50px 0 0 0;
+	background-color: #fc0;
+	position: absolute;
+	right: 0px;
+	bottom: 0px;
+	
+}
