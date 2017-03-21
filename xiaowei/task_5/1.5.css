@@ -1,0 +1,169 @@
+body {
+	margin: 0;
+	background-color: #E2DEDE;
+	display: block;
+	top: 0;
+	
+}
+body h1{
+	margin: 0;
+	padding: 14px;
+	font-size: 30px;
+	color: white;
+	text-align: center;
+	float: left;
+}
+
+#header {
+	position: relative;
+	height: 60px;
+	top: 0;
+	background-color: #302F35;
+
+}
+#header ul{
+	float: right;
+	position: absolute;
+	right: 13px;
+	top: 0;
+	margin: 35px;
+}
+#header ul li{
+	float: left;
+	padding: 20px,20px;
+	width: 80px;
+	display: block;
+	text-align: center;
+	font-size: 10px;
+	
+}
+#header ul li a{
+	text-decoration: none;
+	color: white;
+}
+article {
+	margin: 30px;
+	padding: 20px;
+	background-color: white;
+	overflow: auto;
+}
+article p{
+	text-indent: 2em;
+}
+article h3{
+	color: gray;
+}
+article h4{
+	color: gray;
+}
+article ul li{
+	display: block;
+}
+blockquote{
+	overflow: auto;
+}
+blockquote div{
+	border: solid;
+	border-color: gray;
+	border-width: 1px;
+	width: 150px;
+	padding: 10px;
+	float: left;
+	margin: 10px;
+}
+blockquote span{
+	display: block;
+	margin: 5px;
+	font-size: 10px;
+	text-align: center;
+}
+blockquote img{
+	width: 140px;
+	padding: 5px;
+}
+article table{
+	width: 100%;
+	border-collapse: collapse;
+}
+article table tr th{
+	color: white;
+	background-color: #434040;
+	text-align: left;
+	padding: 5px;
+}
+article table tr td{
+	padding: 5px;
+}
+#add td{
+	background-color: #BFB7B7;
+}
+#form {
+	border-left-style: solid;
+	border-left-color: gray;
+}
+article form h2{
+	padding: 5px;
+}
+#zhuce{
+	width: 320px;
+	margin: 0;
+}
+#zhuce span{
+	display: inline-block;
+    width: 40%;
+    float: left;
+    vertical-align: top;
+    text-align: right;
+    margin-right: 10px;
+}
+#zhuce p{
+	color: #aaa;
+    margin-left: 35%;
+}
+#zhuce input{
+	margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+#intro span{
+	display: inline-block;
+    width: 40%;
+    float: left;
+    vertical-align: top;
+    text-align: right;
+    margin-right: 10px;
+}
+#intro div{
+	margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+#intro button{
+	padding: 5px;
+	width: 100%;
+	border-radius: 8px;
+	background-color: #2F92DE;
+	color: white;
+	height: 40px;
+	font-size: 20px;
+}
+#end{
+	display: block;
+	position: relative;
+	bottom: 0;
+	line-height: 50px;
+	height: 50px;
+	background-color:#1E1818;
+	color: white;
+	text-align: center;
+	padding: 8px;
+	clear: both;
+}
+.text{
+	
+	margin-right: 400px;
+	width: auto;
+}
+.form{
+	float: right;
+}
